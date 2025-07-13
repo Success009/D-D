@@ -1,0 +1,8 @@
+{
+  "name": "D&D Live",
+  "description": "A web-based tool for Dungeon Masters to run live D&D games, narration and for players to join and interact in real-time. The DM controls the story via voice, and an Generation of live scenery. Players join via a simple link, create characters, and view the game's progress.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}

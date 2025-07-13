@@ -1,0 +1,26 @@
+
+@keyframes dice-roll-animation {
+  0% { transform: rotate(0deg) scale(1); opacity: 1; }
+  15% { transform: rotate(180deg) scale(1.2); }
+  30% { transform: rotate(360deg) scale(1); }
+  45% { transform: rotate(540deg) scale(1.2); }
+  60% { transform: rotate(720deg) scale(1); }
+  100% { transform: rotate(720deg) scale(1); opacity: 1; }
+}
+.dice-rolling {
+  animation: dice-roll-animation 2s ease-out forwards;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1e293b; /* slate-800 */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #475569; /* slate-600 */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #64748b; /* slate-500 */
+}
